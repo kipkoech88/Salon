@@ -22,8 +22,7 @@ section{
 header>nav{
     display: flex; 
     justify-content: space-between; 
-    margin: 30px; 
-    overflow:scroll; 
+    margin: 30px;  
     flex-wrap:nowrap;
 } 
 li{
@@ -34,7 +33,7 @@ ul{
     display: flex;
     justify-content: space-evenly; 
     flex-wrap: nowrap; 
-    overflow: scroll;
+    overflow: auto;
 } 
 /* header>nav>h1{
     font-family: 'Raleway', sans-serif;
