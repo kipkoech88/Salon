@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+.images{
+    /* border: 1px solid gray;  */
+    height: 400px; 
+    margin: 30px;
+} 
+.one{
+    width: 33.333%; 
+    /* border: 1px solid gray;  */
+    float: left; 
+    height: inherit; 
+} 
+.cen{
+    text-align: center;
+} 
+section{
+    /* border: 1px solid gray;  */
+    margin: 30px;
+} 
+header>nav{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 30px; 
+    overflow:auto; 
+    flex-wrap: wrap;
+} 
+li{
+    list-style: none; 
+    margin: 10px;
+} 
+ul{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+} 
+/* header>nav>h1{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Work Sans', sans-serif; 
+    font-size: larger;
+}  */
+#logo{
+    /* font-style: italic; 
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Work Sans', sans-serif; */ 
+    width: 70px; 
+    height: auto;
+} 
+    .second{ 
+        color: white; 
+        max-width: 300px; 
+        margin-left: 40px;
+    } 
+    .second h1{ 
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    } 
+    .second h3{
+    font-size: 10px;
+    } 
+    .second div{
+        /* border: 1px solid green;  */
+        margin-top: 50px; 
+        max-height: fit-content; 
+        max-width:200px; 
+        background-color: black; 
+        padding: 10px; 
+        margin-bottom: 5px;
+    }
+    /* .second h2{
+        font-size: normal;
+    } */ 
+    span{
+        font-size: xx-large;
+    } 
+    .second div h2{
+        font-size: large;
+    } 
+    .second div button{
+        margin-top: 20px;
+    } 
+#withback{
+    background-image: url("salon2.jpg"); 
+    background-position: end; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 20px; 
+    padding-bottom: 10px;
+} 
+section.withIcs{
+    display: flex; 
+    justify-content: space-evenly; 
+    margin: 50px; 
+    padding: 30px; 
+    flex-wrap: wrap;
+}  
+section.withIcs>div img{
+    width: 100px; 
+    height: auto; 
+    margin-left: 30px;
+} 
+section.withIcs>div{
+    padding: 15px;
+} 
+.gray{
+    background-color: gray; 
+    /* margin-left: 0px; 
+    margin-right: 0px;  */
+    padding-left: 100px; 
+    padding-right: 100px; 
+    height: fit-content; 
+    display: flex; 
+    justify-content: center; 
+    overflow: auto; 
+    flex-wrap: wrap;
+} 
+section.gray div{
+    max-width: 400px; 
+    padding-top: 10px; 
+    margin-top: 10px;
+} 
+section.withImages{
+    display: flex; 
+    justify-content: center;  
+    gap: 30px; 
+    flex-wrap: wrap; 
+    overflow: auto;
+} 
+section.withImages img{
+    width: 200px; 
+    height: 300px;
+} 
+section.withImages figcaption{
+    background-color: black; 
+    padding-top: -10px; 
+    margin-left: 5px; 
+    margin-right: 5px; 
+    margin-top: -5px; 
+    color: white; 
+    text-align: center;
+} 
+section.withLight{
+    background-color: grey; 
+    background-image: url("salon2.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: right; 
+    background-size: cover; 
+    height: 300px; 
+    overflow: auto; 
+    height: auto;
+} 
+section.withLight div{
+    padding-left: 100px; 
+    padding-top: 100px;
+} 
+section.images div.one img{
+    width: 100px;
+} 
+section>div.images>div.one>div#hk img{
+    width: 200px; 
+    height: 250px;
+}  
+section>div.images>div.one>div#k img{
+    height: 150px; 
+    width: 200px; 
+    padding-top: 5px;
+}
+/* @media  screen (min-width:600px) {
+    
+} */ 
+section>div.images>div.one>div{
+    padding-left: 60px;
+} 
+/* @media screen (min-width:600px) {
+    section{
+        background-color:blue;
+    }
+} */ 
+section>.images{
+    overflow: auto; 
+    flex-wrap: wrap;
+}
